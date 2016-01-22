@@ -1,0 +1,16 @@
+FOR TODO:
+DB name- vikas
+Table - Todo
+Table fields- Date,Time,Activity
+
+FOR USER LOGIN & REGISTRATION 
+
+DB name- users
+Table - register
+
+TABLE FIELDS OF REGISTRATION:
+email id, user name, mobile,password & Retype
+
+
+TABLE FIELDS OF LOGIN:
+email id & Password

@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>
+Registration</title>
+<style>
+body{
+
+background: url(img2.jpg);
+background-size:100% auto;
+}
+</style>
+</head>
+<body>
+<center><h3>REGISTRATION PAGE</h3>
+<table>
+<form action = "home2.php" method="post">
+Email:<input type="emailid" id="user2" name="mail" placeholder="email" onkeyup="mail2()" required > &nbsp
+<span><p id = "v3" ></p> </span> 
+Name:<input type="text"  name="rname" placeholder="name"  onkeyup="checkname()" required>&nbsp <br><br>
+<span>  </span>
+Mobile:<input type="number" id="mob" name="number" placeholder="mobile" onkeyup="checkmob()" required> 
+<span> <p id = "v5"></p> </span>
+Password:<input type="password" id="pass1" name="pwd"  placeholder="password"  onkeyup="password1()" required><br>
+<span><p id = "v6"></p></span>
+Retype:<input type="password" name="rpwd" placeholder="retype" required><br><br>&nbsp
+<input type="submit" name="register" value="register">
+</form>
+</table>
+</center>
+</body>
+<script src = regvalidation.js > </script>
+</html>
